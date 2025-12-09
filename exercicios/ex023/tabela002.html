@@ -13,6 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th{
@@ -30,6 +31,12 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+
+        thead > tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         tbody > tr:nth-child(odd){ /*2n-1*/
@@ -130,6 +137,50 @@
             <tr>
                 <td> Mato Grosso</td>
                 <td class="num">3 893 659</td>
+            </tr>
+             <tr>
+                <td> Rio Grande do Norte</td>
+                <td class="num">3 455 236</td>
+            </tr>
+             <tr>
+                <td>  Piauí</td>
+                <td class="num">3 384 547 </td>
+            </tr>
+             <tr>
+                <td>  Alagoas</td>
+                <td class="num">3 220 848</td>
+            </tr>
+             <tr>
+                <td>  Distrito Federal</td>
+                <td class="num">2 996 899</td>
+            </tr>
+             <tr>
+                <td>  Mato Grosso do Sul</td>
+                <td class="num">2 924 631</td>
+            </tr>
+             <tr>
+                <td> Sergipe</td>
+                <td class="num">2 299 425</td>
+            </tr>
+             <tr>
+                <td>Rondônia</td>
+                <td class="num">1 751 950</td>
+            </tr>
+             <tr>
+                <td>Tocantins</td>
+                <td class="num">1 586 859</td>
+            </tr>
+             <tr>
+                <td> Acre</td>
+                <td class="num">884 372</td>
+            </tr>
+             <tr>
+                <td> Amapá</td>
+                <td class="num">806 517</td>
+            </tr>
+             <tr>
+                <td> Roraima</td>
+                <td class="num">738 772</td>
             </tr>
             
         </tbody>
