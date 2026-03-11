@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <style>
+        
+        html{
+            scroll-behavior: smooth;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            background-color: skyblue;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        header{
+            background-color: whitesmoke;
+            display: flex;
+            height: 80px;
+            width: 100vw;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+        }
+        header > h1{
+            flex: 0 0 150px;
+            padding-left: 5px;
+        }
+        header > nav{
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: flex-end; 
+        }
+
+        a{
+            background-color: skyblue;
+            text-decoration: none;
+            color: black;
+            padding: 8px;
+            border-radius: 10px 10px 0px 0px; 
+        }
+
+        a:hover{
+            background-color: blue;
+            transition: backgroud-color 0.5s;
+        }
+
+        section{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        section#Home{
+            background-color: skyblue;
+        }
+        section#Help{
+            background-color: aquamarine;
+        }
+        section#Blog{
+            background-color: rgb(79, 122, 139);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ola mundo!</h1>
+        <nav><a href="#Home">Home</a></nav>
+        <nav><a href="#Help">Help</a></nav>
+        <nav><a href="#Blog">Blog</a></nav>
+    </header>
+    
+        <section id="Home"><h1>Home</h1></section>
+        <section id="Help"><h1>Help</h1></section>
+        <section id="Blog"><h1>Blog</h1></section>
+    
+</body>
+</html>
